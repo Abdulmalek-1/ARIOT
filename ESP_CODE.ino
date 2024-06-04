@@ -1,13 +1,13 @@
-#define BLYNK_TEMPLATE_ID           "TMPL61h0AooTF"
-#define BLYNK_TEMPLATE_NAME         "Quickstart Template"
-#define BLYNK_AUTH_TOKEN            "LxTJ-5uaHH_Qyp5X94a0SgmNyKeplKXF"
+#define BLYNK_TEMPLATE_ID           "Your template ID"
+#define BLYNK_TEMPLATE_NAME         "Your template"
+#define BLYNK_AUTH_TOKEN            "Your blynk authentication token"
 
 #include <AccelStepper.h>
 #include <BlynkSimpleEsp32.h>
 
 const char auth[] = BLYNK_AUTH_TOKEN;         // Blynk authentication token
-const char ssid[] = "MLK iPhone";         // Your WiFi SSID
-const char pass[] = "Zz112344";     // Your WiFi password
+const char ssid[] = "xxxxxxxxxxxxxx";         // Your WiFi SSID
+const char pass[] = "xxxxxxxxxxxxxx";         // Your WiFi password
 
 const int speedPin = 2;    // Variable that control the speed of fan
 const int LEDPin = 22;     // Variable that control the LED
